@@ -5,6 +5,7 @@ import PktProducts from "./_components/PktProducts";
 import ExecutiveProducts from "./_components/ExecutiveProducts";
 import OrderSection from "./_components/OrderSection";
 import NavBar from "@/components/NavBar";
+import BundleProducts from "./_components/BundleProducts";
 
 const page = () => {
   return (
@@ -48,6 +49,9 @@ const page = () => {
         <div className="w-full">
           <ExecutiveProducts />
         </div>
+        <div className="w-full">
+          <BundleProducts />
+        </div>
         <div className="my-2 p-4">
           <h1 className="font-semibold text-sm md:text-xl">
             Place Your Order Today!
@@ -80,6 +84,13 @@ const page = () => {
             you&#39;re hosting a Deepavali gathering, enjoying a quiet teatime,
             or need a delicious snack to keep you going through long workdays,
             Dzora Delights has you covered.
+          </p>
+        </div>
+        <div className="my-2 p-4">
+          <h1 className="font-semibold text-sm md:text-xl">Delivery Charge</h1>
+          <p className="my-2 text-xs md:text-xl">
+            Free Delivery in Klang Valley for Orders More than One Hundred
+            Ringgit RM100++
           </p>
         </div>
       </div>

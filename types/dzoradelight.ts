@@ -5,3 +5,10 @@ export type DzoraDelightProduct = {
   image: StaticImageData;
   price: string;
 };
+
+export type DelightBundle = {
+  name: string;
+  desc: string;
+  price: string;
+  items: string[];
+};
