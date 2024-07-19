@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import img from "@/public/cover.jpg";
+import img from "@/public/cover.png";
 
 const Cover = () => {
   return (

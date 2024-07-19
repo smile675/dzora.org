@@ -1,4 +1,3 @@
-import { StaticImageData } from "next/image";
 import {
   cornChips,
   crunchyPakoda,
@@ -14,14 +13,9 @@ import {
   spicyMixture,
   thenkuzal,
 } from "@/public/images/classic";
+import { DzoraDelightProduct } from "@/types/dzoradelight";
 
-export type Product = {
-  name: string;
-  image: StaticImageData;
-  price: string;
-};
-
-const products: Product[] = [
+const classicProducts: DzoraDelightProduct[] = [
   { name: "Corn Chips", image: cornChips, price: "RM 8.00" },
   { name: "Crunchy Pakoda", image: crunchyPakoda, price: "RM 8.00" },
   { name: "Kara Bhoonthi", image: karaBhoonthi, price: "RM 8.00" },
@@ -34,7 +28,7 @@ const products: Product[] = [
   { name: "Ribbon Murukku", image: ribbonMurukku, price: "RM 8.00" },
   { name: "Ring Murukku", image: ringMurukku, price: "RM 8.00" },
   { name: "Spicy Mixture", image: spicyMixture, price: "RM 8.00" },
-  { name: "Thenkuzal", image: thenkuzal, price: "RM 8.00" },
+  { name: "Murukku", image: thenkuzal, price: "RM 8.00" },
 ];
 
-export default products;
+export default classicProducts;
