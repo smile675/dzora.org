@@ -13,9 +13,9 @@ const OrderSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWhatsapp size={35} />
+            <FaWhatsapp size={25} />
           </a>
-          <span>+60 12-377 6420</span>
+          <span className="text-xs md:text-base">+60 12-377 6420</span>
         </div>
         <div className="flex items-center justify-center gap-1 border border-gray-200 rounded-full p-2">
           <a
@@ -23,7 +23,7 @@ const OrderSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaEnvelope size={35} />
+            <FaEnvelope size={25} />
           </a>
         </div>
       </div>
