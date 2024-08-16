@@ -13,7 +13,7 @@ const OrderSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWhatsapp size={25} />
+            <FaWhatsapp size={25} color="teal" />
           </a>
           <span className="hidden md:block text-xs md:text-base ">
             +60 12-377 6420
@@ -25,7 +25,7 @@ const OrderSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaEnvelope size={25} />
+            <FaEnvelope size={25} color="#B92506" />
           </a>
           <span className="hidden md:block text-xs md:text-base ">
             dzoraresources100@gmail.com
