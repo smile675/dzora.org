@@ -1,12 +1,12 @@
-import cornChips from "./corn-chips.png";
-import curnchyPakoda from "./crunchy-pakoda.png";
-import karaBoonthi from "./karaboonthi.png";
-import normalMixture from "./normal-mixture.png";
-import omapodiMixture from "./omapodi-mixture.png";
-import ribbonMurukku from "./ribbon-murukku.png";
-import spicyMixture from "./spicy-mixture.png";
-import springMurukku from "./spring-murukku.png";
-import thenkuzal from "./thenkuzhal.png";
+const cornChips = "/images/executive/corn-chips.png";
+const curnchyPakoda = "/images/executive/crunchy-pakoda.png";
+const karaBoonthi = "/images/executive/karaboonthi.png";
+const normalMixture = "/images/executive/normal-mixture.png";
+const omapodiMixture = "/images/executive/omapodi-mixture.png";
+const ribbonMurukku = "/images/executive/ribbon-murukku.png";
+const spicyMixture = "/images/executive/spicy-mixture.png";
+const springMurukku = "/images/executive/spring-murukku.png";
+const thenkuzal = "/images/executive/thenkuzhal.png";
 
 export {
   cornChips,

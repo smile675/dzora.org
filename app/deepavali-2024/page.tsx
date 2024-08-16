@@ -10,7 +10,7 @@ import BundleProducts from "./_components/BundleProducts";
 const page = () => {
   return (
     <div className="w-full flex justify-center bg-slate-100">
-      <div className="w-full max-w-screen-xl h-screen overflow-auto no-scrollbar">
+      <div className="w-full max-w-screen-xl">
         <NavBar />
         <Cover />
         <div className="my-2 p-4">

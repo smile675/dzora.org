@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 
 export type DzoraDelightProduct = {
   name: string;
-  image: StaticImageData;
+  image: string;
   price: string;
 };
 
