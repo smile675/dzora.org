@@ -6,7 +6,7 @@ const SingleProduct = ({ product }: { product: DzoraDelightProduct }) => {
   return (
     <div className="m-2 shadow-xl rounded-md bg-white">
       <div className="flex flex-col w-full justify-center items-center">
-        <div className="relative h-[100px] w-[100px] bg-white p-6 m-6">
+        <div className="relative h-[100px] w-[100px] md:h-[140px] md:w-[140px] lg:h-[160px] lg:w-[160px] bg-white p-6 m-6">
           <Image
             src={product.image}
             alt={product.name}
