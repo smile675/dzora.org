@@ -21,7 +21,7 @@ const OrderSection = () => {
         </div>
         <div className="flex items-center justify-center gap-1 border border-gray-200 rounded-full p-2">
           <a
-            href="mailto:dzoraresources@gmail.com"
+            href="mailto:dzoraresources100@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
