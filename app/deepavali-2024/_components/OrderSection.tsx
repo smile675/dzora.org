@@ -9,13 +9,15 @@ const OrderSection = () => {
       <div className="flex justify-end gap-3">
         <div className="flex items-center justify-center gap-1 border border-gray-200 rounded-full p-2">
           <a
-            href="https://wa.me/60116220501"
+            href="https://wa.me/+60123776420"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaWhatsapp size={25} />
           </a>
-          <span className="text-xs md:text-base">+60 12-377 6420</span>
+          <span className="hidden md:block text-xs md:text-base ">
+            +60 12-377 6420
+          </span>
         </div>
         <div className="flex items-center justify-center gap-1 border border-gray-200 rounded-full p-2">
           <a
@@ -25,6 +27,9 @@ const OrderSection = () => {
           >
             <FaEnvelope size={25} />
           </a>
+          <span className="hidden md:block text-xs md:text-base ">
+            dzoraresources100@gmail.com
+          </span>
         </div>
       </div>
     </div>

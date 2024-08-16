@@ -9,7 +9,7 @@ const normalMixture = "/images/classic/normal-mixture.png";
 const omapodiMixture = "/images/classic/omapodi-mixture.png";
 const ribbonMurukku = "/images/classic/ribbon-murukku.png";
 const ringMurukku = "/images/classic/ring-murukku.png";
-const spicyMixture = "/images/classic/spiciy-mixture.png";
+const spicyMixture = "/images/classic/spiciy-mixture.png"; //images/classic/ring-murukku.png
 const thenkuzal = "/images/classic/thenkuzhal.png";
 
 export {
