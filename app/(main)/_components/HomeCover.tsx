@@ -5,12 +5,7 @@ import { malaysianMap } from "@/public/images/graphic";
 const HomeCover = () => {
   return (
     <div className="w-full bg-primary/80 flex items-center justify-center py-2 md:py-16 lg:py-28 xl:py-40">
-      <div
-        className="w-full grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl p-2"
-        style={{
-          backgroundImage: malaysianMap,
-        }}
-      >
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl p-2">
         <div className="p-10 flex flex-col justify-center items-center">
           <h1 className="text-2xl font-light text-primary-foreground ">
             Welcome to
