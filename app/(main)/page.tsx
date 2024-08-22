@@ -1,11 +1,14 @@
 import React from "react";
 import HomeCover from "./_components/HomeCover";
+import MainNavbar from "./_components/MainNavbar";
+import MissionVission from "./_components/MissionVission";
 
 const HomePage = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <HomeCover />
-      <nav className="bg-black  w-full sticky top-0">navbar</nav>
+      <MainNavbar />
+      <MissionVission />
       <div className="w-full max-w-screen-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
         temporibus quo odio dolores, placeat, iusto perferendis, aliquam fuga a
