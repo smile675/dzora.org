@@ -7,12 +7,13 @@ const HomeCover = () => {
     <div
       className="w-full flex items-center justify-center py-2 md:py-16 lg:py-28 xl:py-40"
       style={{
-        backgroundImage: `url(${malaysianMap})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(${malaysianMap})`,
         backgroundColor: "hsl(var(--primary))", // Ensures primary color is used as a background
+        // opacity: "50%",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundBlendMode: "overlay", // Enhances the primary color while reducing the image visibility
+        backgroundBlendMode: "multiply", // Enhances the primary color while reducing the image visibility
       }}
     >
       <div className="w-full grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl p-2">
